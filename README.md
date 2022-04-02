@@ -7,7 +7,7 @@ As the encryption approach is a trade-off between data privacy and model accurac
 
 The main advantage of the Hybrid approach is to resolve the limitation of PHE and preserves the feature of images which is the role of the Homomorphic Encryption technique.
 
-### Functions Explanation 
+### Principal Functions Explanation 
 | Function | Input | Output | Explanation |
 | -------- | ----- | ------ | ----------- |
 | Hybrid_encryption | _lambda(security parameter of SHE that is updated by the user),public_keyS(function call to generate the public key list. It includes in SHE approach) , plaintext( the pixel value is to encrypt) , public_key(the object include in PHE scheme).  |Encrypted pixel value | Function uses four different inputs to generate the new pixel value which is encrypted.
