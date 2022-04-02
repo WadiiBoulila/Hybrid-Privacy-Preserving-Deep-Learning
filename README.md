@@ -10,4 +10,5 @@ The main advantage of the Hybrid approach is to resolve the limitation of PHE an
 ### Functions Explanation 
 | Function | Input | Output | Explanation |
 | -------- | ----- | ------ | ----------- |
-| Hybrid_encryption | _lambda(security parameter of SHE that is updated by the user),public_keyS(function call to generate the public key list. it includes in SHE approach) , plaintext( the pixel value is to encrypt) , public_key(the object include in PHE scheme).  |Encrypted pixel value | Function uses four different inputs to generate the new pixel value which is encrypted.
+| Hybrid_encryption | _lambda(security parameter of SHE that is updated by the user),public_keyS(function call to generate the public key list. It includes in SHE approach) , plaintext( the pixel value is to encrypt) , public_key(the object include in PHE scheme).  |Encrypted pixel value | Function uses four different inputs to generate the new pixel value which is encrypted.
+| ImgEncrypt | Same input of Hybrid_encryption but it differ on plaintext. In this function the plaintext is images. | Encrypted image | Function calls the function Hybrid_encryption function to encrypt each image pixel and generate a new image that is encrypted and has the same size as the plain image.
