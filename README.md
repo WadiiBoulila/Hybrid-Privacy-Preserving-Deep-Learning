@@ -17,7 +17,7 @@ The main advantage of the Hybrid approach is to resolve the limitation of PHE an
 
 Hybrid_PPDL has two steps: 
 <br />
-The first steps is to generate the public keys based on two different algorithms each one belongs to an approach (PHE and SHE).
+The first steps is to generate the public keys based on two different algorithms each one belongs to an approach (PHE and SHE): the first key (PHE: k1) is gererated using two large prime(p and q) and the second key(SHE: k2) is generated using _lambda. 
 <br />
 The second steps is to generate an encrypted value.
 
