@@ -23,6 +23,8 @@ The second steps is to generate an encrypted value.
 
 ![tree](Steps.jpg)
 
+The purpose of this method is to encrypt an image so that it is incomprehensible to the user and when used in the DL process, the untrusted environment cannot know its context. Then, the user can upload their dataset to a remote computer/environment without fear of knowing the context of the image by the enemy user or hacker. 
+<br />
 The output of this approach is a new image generated as follows: 
 
 ![tree](ImgEcrypt.jpg)
