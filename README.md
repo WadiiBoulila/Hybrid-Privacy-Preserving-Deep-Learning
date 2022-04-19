@@ -28,3 +28,6 @@ The purpose of this method is to encrypt an image so that it is incomprehensible
 The output of this approach is a new image generated as follows: 
 
 ![tree](ImgEcrypt.jpg)
+
+# Demo
+You can test the whole process of image encryption, and training on plain and encrypted images, on a sample dataset, using this [Colab notebook](https://colab.research.google.com/drive/14iYEfy6Tj27n7_QHy-rSakY2ANYmNRrv?usp=sharing).
