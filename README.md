@@ -51,6 +51,7 @@ The third step shows the evaluation of the hybrid PPDL according to some paramet
 * scikit-image 0.19.3
 * Numpy 1.19.5
 * Pillow 9.2.0
+* tensorflow
 
 ### Usage
 * Clone the Repository:
