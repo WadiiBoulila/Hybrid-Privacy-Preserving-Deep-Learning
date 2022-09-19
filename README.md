@@ -2,15 +2,16 @@
 This repository contains the code for the following publication "A Hybrid Privacy-Preserving Deep Learning Approach for Object Classification in Very High-Resolution Satellite Images". Link: https://www.mdpi.com/2072-4292/14/18/4631
 
 ## Description
-This repository is the approach designed to encrypt high resolution remote sensing imagery.
+This repository is the approach designed to encrypt very high-resolution remote sensing imagery.
 <br />
 Hybrid Privacy-Preserving Deep Learning is an encryption method that secures the information in the image. This method is based on Homomorphic Encryption(HE), specifically Partially Homomorphic Encryption(PHE)(https://ieeexplore.ieee.org/document/9842444) and Somewhat Homomorphic Encryption(SHE). It does not rely on all the functions and properties of these two approaches but the construction of this technique depends on the extraction of certain properties of each according to its needs.
 
 As the encryption approach is a trade-off between data privacy and model accuracy, DLaaS can run on encrypted images without knowing the context of the images and due to Hybrid_PPDL's ability to preserve the feature of images, DL Models can train on this type of images and show an accuracy result(good).
 
 The main advantage of the Hybrid approach is to resolve the limitation of PHE and preserves the feature of images which is the role of the Homomorphic Encryption technique.
+
 ## Dataset Details
-Remote sensing data from seven cities in Saudi Arabia (Al Madinah, Riyadh, Jeddah, Al Qassim, Al Qatif, Hail and Dammam) were divided into non-overlapping 256x256 blocks. These images are encrypted by the proposed approach. After encrypting them, this dataset is used to train four CNN models.
+Remote sensing data from seven cities in Saudi Arabia (Al Madinah, Riyadh, Jeddah, Al Qassim, Al Qatif, Hail, and Dammam) were divided into non-overlapping 256x256 blocks. These images are encrypted by the proposed approach. After encrypting them, this dataset is used to train four CNN models.
 
 ## Model Details 
 ### Principal Functions Explanation 
