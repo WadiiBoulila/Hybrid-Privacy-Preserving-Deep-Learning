@@ -3,7 +3,7 @@ This repository contains the code for the following publication "A Hybrid Privac
 
 ### Description
 This repository is the approach designed to encrypt high resolution remote sensing imagery.
-<br\>
+<br />
 Hybrid Privacy-Preserving Deep Learning is an encryption method that secures the information in the image. This method is based on Homomorphic Encryption(HE), specifically Partially Homomorphic Encryption(PHE) and Somewhat Homomorphic Encryption(SHE). It does not rely on all the functions and properties of these two approaches but the construction of this technique depends on the extraction of certain properties of each according to its needs.
 
 As the encryption approach is a trade-off between data privacy and model accuracy, DLaaS can run on encrypted images without knowing the context of the images and due to Hybrid_PPDL's ability to preserve the feature of images, DL Models can train on this type of images and show an accuracy result(good).
