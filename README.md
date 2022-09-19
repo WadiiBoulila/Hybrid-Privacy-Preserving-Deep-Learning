@@ -1,4 +1,4 @@
-# Hybrid-Privacy-Preserving-Deep-Learning
+# A Hybrid Privacy-Preserving Deep Learning Approach for Object Classification in Very High-Resolution Satellite Images
 Hybrid Privacy-Preserving Deep Learning is an encryption method that secures the information in the image.
 
 Hybrid Privacy-Preserving Deep Learning is based on Homomorphic Encryption(HE), specifically Partially Homomorphic Encryption(PHE) and Somewhat Homomorphic Encryption(SHE). It does not rely on all the functions and properties of these two approaches but the construction of this technique depends on the extraction of certain properties of each according to its needs.
