@@ -63,9 +63,10 @@ change the path in the `Hybrid_PPDL.ipynb` file.
 ```ruby
    Hybrid_PPDL.ipynb
 ```
+# Demo
+You can test the whole process of image encryption, and training on plain and encrypted images, on a sample dataset, using this [Colab notebook](https://colab.research.google.com/drive/14iYEfy6Tj27n7_QHy-rSakY2ANYmNRrv?usp=sharing) (save a copy of the notebook if you want to modify it).
 
-### Citation
-
+# Citation
 If you use any part of this work please cite using the following Bibtex format:
 ```
 @Article {rs14184631,
@@ -82,6 +83,3 @@ DOI = {10.3390/rs14184631}
 }
 
 '''
-
-# Demo
-You can test the whole process of image encryption, and training on plain and encrypted images, on a sample dataset, using this [Colab notebook](https://colab.research.google.com/drive/14iYEfy6Tj27n7_QHy-rSakY2ANYmNRrv?usp=sharing) (save a copy of the notebook if you want to modify it).
